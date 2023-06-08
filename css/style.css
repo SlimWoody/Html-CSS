@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Montserrat Personal;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2px 2px 0 2px;
+    background-color: rgba(0, 0, 0, 0.105);
+    height: 100px;
+}
+
+.logo{
+    padding: 16px 58px 0 80px;
+}
+
+header img{
+    width: 300px;
+}
+
+
+
+.main {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 50px;
+    
+}
+
+.main li
+{
+    line-height: inherit;
+    padding: 22px 21px 37px 20px;
+}
+
+
+
+h2{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(26, 66, 137);
+}
+
+.a-more-detailed{
+    font-size: 18;
+    text-decoration: none;
+    color: black;
+    display: block; 
+    text-align:center
+}
+
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+img.catalog{
+    width: 600px;
+}
+
+img.contacts{
+    width: 600px;
+}
